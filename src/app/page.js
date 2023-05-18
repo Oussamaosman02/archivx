@@ -1,9 +1,13 @@
+import Image from 'next/image'
 import styles from './page.module.css'
 
 export default function Home () {
   return (
     <main className={styles.main}>
       <h1>Cuidao!</h1>
+      <a href='https://zonabit.net/' target='_blank' rel='noreferrer noopener' className={styles.logo}>
+        <Image src='/zb.png' alt='Logo' fill />
+      </a>
       <div className={styles.description}>
         <p>Esto no es un archivo <b>.zip</b>!</p>
         <p>Esto es una web.</p>
@@ -34,6 +38,9 @@ export default function Home () {
           <li><b>Comparte</b> este recurso para informar a la gente: así, igual que tu ahora sabes esto, cuanta más gente lo sepa, menos pasará.</li>
         </ol>
       </div>
+      <footer className={styles.footer}>
+        <a href='https://zonabit.net/' target='_blank' rel='noreferrer noopener'>Zonabit.net</a>
+      </footer>
     </main>
   )
 }
