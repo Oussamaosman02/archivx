@@ -5,8 +5,8 @@ import { Analytics } from '@vercel/analytics/react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Estafa ZIP',
-  description: 'Esto no es un archivo .zip!'
+  title: 'ZIP File',
+  description: 'Download and preview this zip file!'
 }
 
 export default function RootLayout ({ children }) {
