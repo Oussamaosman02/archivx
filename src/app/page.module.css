@@ -69,12 +69,19 @@
 
 /* Mobile */
 @media (max-width: 700px) {
-  /* .center {
-    padding: 8rem 0 6rem;
-  } */
-
   .main::before {
     transform: none;
     height: 300px;
+  }
+  .info {
+    width: 95vw;
+    margin: 1vh 0;
+  }
+  .why ul {
+    left: 4%;
+  }
+  .how ol {
+    max-width: 90%;
+    left: 5%;
   }
 }
