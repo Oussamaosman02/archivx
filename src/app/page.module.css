@@ -100,4 +100,9 @@
     max-width: 90%;
     left: 5%;
   }
+  .more {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }

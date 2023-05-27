@@ -18,7 +18,7 @@ const ShareButton = () => {
           console.log('Sharing failed')
         })
     } else {
-      navigator.clipboard.writeText('https://archivx.zip')
+      navigator.clipboard?.writeText('https://archivx.zip')
       toast.success('Copiado al portapapeles', {
         position: 'top-right',
         autoClose: 3000,
