@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import ShareButton from './shareButton'
 
 export default function Home () {
   return (
@@ -38,6 +39,7 @@ export default function Home () {
           <li><b>Comparte</b> este recurso para informar a la gente: así, igual que tu ahora sabes esto, cuanta más gente lo sepa, menos pasará.</li>
         </ol>
       </div>
+      <ShareButton />
       <footer className={styles.footer}>
         <a href='https://zonabit.net/' target='_blank' rel='noreferrer noopener'>Zonabit.net</a>
       </footer>
