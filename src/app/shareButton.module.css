@@ -1,0 +1,36 @@
+.button {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid #009900;
+  border-radius: 50px;
+  background-color: transparent;
+  font-size: 20px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  background-color: #009900;
+  color: white;
+}
+.container {
+  background-color: red;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .button {
+    bottom: 10px;
+    padding: 7px;
+    right: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: #009900;
+  }
+  .button:hover {
+    background-color: #009900;
+    color: white;
+  }
+}
