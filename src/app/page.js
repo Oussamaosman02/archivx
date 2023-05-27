@@ -27,8 +27,9 @@ export default function Home () {
           <li>Lo que hay detrás del @ es el dominio al que pertenece: en el caso de los correos, sería gmail.com o hotmail.com.</li>
         </ul>
         <p>Dada esta premisa, tu navegador interpreta que vas a iniciar sesión en la url del dominio (lo que hay detrás del @).</p>
-        <p>Y te lleva a dicha página</p>
+        <p>Y te lleva a dicha página.</p>
       </div>
+      <b><a href='/details'>Más información sobre el funcionamiento de la estafa</a></b>
       <div className={`${styles.how} ${styles.info}`}>
         <h2>¿Cómo evito que me pase?</h2>
         <p>Hay un par de cosas a tener en cuenta para que no te engañen con este "truco":</p>
